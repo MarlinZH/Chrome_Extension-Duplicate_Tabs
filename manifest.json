@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Duplicate Tab Checker",
+    "version": "1.0",
+    "description": "Prompts the user when opening a duplicate tab",
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    }
+    {
+        "background": {
+            "scripts": [
+                "background.js"
+            ],
+            "persistent": false
+        }
+    }
+}
